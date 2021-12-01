@@ -1,0 +1,43 @@
+@import '../base/listas';
+
+.footer {
+    background-color: $bg-general;
+    .footer-items {
+        .footer-izq{
+            nav {
+                ul {
+                    text-align: center;
+                    li {
+                        font-size: nth($size-fer, 3);
+                        letter-spacing: 1px;
+                        list-style: none;
+                    }
+                }
+            }   
+        }
+        
+        .footer-cen {
+            .envios {
+                font-weight: bold;
+            }
+            .logos {
+            padding: 0px 2px;
+            width: 30px;
+            }
+        }
+        
+        .footer-der {
+            .derechos {
+                font-style: oblique;
+                font-size: nth($size-fer, 4);
+                margin-top: 26px;
+            }
+            .logos {
+                padding: 0px 2px;
+                width: 30px;
+            }
+        }
+    }
+}
+
+

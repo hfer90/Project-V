@@ -1,0 +1,65 @@
+header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #ebebeb;
+  margin: 0;
+  padding: 0;
+}
+
+.h1-fer {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 19px;
+  padding-left: 25px;
+  padding-right: 65px;
+}
+
+.main, .section {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.h2-fer {
+  font-size: 18px;
+}
+
+.producto:hover {
+  opacity: 65%;
+  transition: 0.5s ease;
+}
+
+a, p {
+  font-size: 14px;
+}
+
+.footer {
+  background-color: #ebebeb;
+}
+.footer .footer-items .footer-izq nav ul {
+  text-align: center;
+}
+.footer .footer-items .footer-izq nav ul li {
+  font-size: 14px;
+  letter-spacing: 1px;
+  list-style: none;
+}
+.footer .footer-items .footer-cen .envios {
+  font-weight: bold;
+}
+.footer .footer-items .footer-cen .logos {
+  padding: 0px 2px;
+  width: 30px;
+}
+.footer .footer-items .footer-der .derechos {
+  font-style: oblique;
+  font-size: 13px;
+  margin-top: 26px;
+}
+.footer .footer-items .footer-der .logos {
+  padding: 0px 2px;
+  width: 30px;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+/*# sourceMappingURL=style.css.map */

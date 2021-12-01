@@ -1,0 +1,19 @@
+
+
+.main , .section {
+    font-family: $font-general;
+}
+
+
+.h2-fer {
+    font-size: nth($size-fer, 2);
+}
+.producto:hover {
+    opacity: 65%;
+    transition: 0.5s ease;
+}
+
+a , p {
+    font-size: nth($size-fer, 3);
+}
+

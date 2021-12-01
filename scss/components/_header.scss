@@ -1,0 +1,14 @@
+header {
+    font-family: $font-general;
+    background-color: $bg-general;
+    margin: 0;
+    padding: 0;
+}
+
+.h1-fer {
+  font-family: $font-general;
+  font-size: nth($size-fer, 1);
+  padding-left: 25px;
+  padding-right: 65px;
+}
+
