@@ -1,12 +1,10 @@
-
-
+/* main y generales */
 .main , .section {
     font-family: $font-general;
 }
 
-
 .h2-fer {
-    font-size: nth($size-fer, 2);
+    font-size: nth($size-proj, 2);
 }
 .producto:hover {
     opacity: 65%;
@@ -14,9 +12,15 @@
 }
 
 a , p {
-    font-size: nth($size-fer, 3);
+    font-size: nth($size-proj, 3);
 }
 
 img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
     display: none;
 }
+
+
+* {
+    padding: 0px;
+    margin: 0px;
+  }

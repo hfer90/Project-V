@@ -1,3 +1,4 @@
+/* header */ 
 header {
     font-family: $font-general;
     background-color: $bg-general;
@@ -5,9 +6,13 @@ header {
     padding: 0;
 }
 
-.h1-fer {
+.logo-proj {
+  width: 100px;
+}
+
+.h1-proj {
   font-family: $font-general;
-  font-size: nth($size-fer, 1);
+  font-size: nth($size-proj, 1);
   padding-left: 25px;
   padding-right: 65px;
 }

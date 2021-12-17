@@ -1,5 +1,5 @@
 @import '../base/listas';
-
+/* footer */
 .footer {
     background-color: $bg-general;
     .footer-items {
@@ -8,7 +8,7 @@
                 ul {
                     text-align: center;
                     li {
-                        font-size: nth($size-fer, 3);
+                        font-size: nth($size-proj, 3);
                         letter-spacing: 1px;
                         list-style: none;
                     }
@@ -29,7 +29,7 @@
         .footer-der {
             .derechos {
                 font-style: oblique;
-                font-size: nth($size-fer, 4);
+                font-size: nth($size-proj, 4);
                 margin-top: 26px;
             }
             .logos {
