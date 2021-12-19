@@ -12,7 +12,7 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: nth($size-proj, 1);
     color: nth($colors-proj, 1);
-    margin: 0px 20px;
+    margin-left: 15px;
 }
 
 .navbar-toggler {
@@ -87,6 +87,4 @@ background-color: nth($colors-proj, 5);
   background-color: white;
   color: black;
   border: 1px solid black;
-
-
 }

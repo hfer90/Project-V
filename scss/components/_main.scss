@@ -29,3 +29,7 @@ a , p {
     opacity: 65%;
     transition: 0.5s ease;
 }
+
+.form-label , .form-control {
+    font-size: nth($size-proj, 3);
+}

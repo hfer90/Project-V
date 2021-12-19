@@ -11,7 +11,7 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2.1rem;
   color: #27282d;
-  margin: 0px 20px;
+  margin-left: 15px;
 }
 
 .navbar-toggler {
@@ -119,6 +119,10 @@ a, p {
 .producto:hover {
   opacity: 65%;
   transition: 0.5s ease;
+}
+
+.form-label, .form-control {
+  font-size: 1.5rem;
 }
 
 /* footer */
