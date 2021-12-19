@@ -8,6 +8,9 @@
     .footer-items {
         margin: 0px;
         .footer-izq{
+            p {
+                font-weight: 600;
+            }
             nav {
                 ul {
                     li {
@@ -17,6 +20,12 @@
                         a {
                             color: nth($colors-proj, 2);
                         }
+                        .footer-link:link {
+                            text-decoration: none;
+                        }
+                        .footer-link:hover {
+                            text-decoration: underline;
+                        }
                         
                     }
                 }
@@ -25,11 +34,12 @@
         
         .footer-cen {
             .envios {
-                font-weight: bold;
+                font-weight: 600;
                 color: nth($colors-proj, 2);
             }
             .logos {
             width: 30px;
+            margin: 0px 2px;
             }
         }
         
@@ -41,6 +51,10 @@
             }
             .logos {
                 width: 30px;
+                margin: 0px 5px;
+            }
+            p {
+                font-weight: 600;
             }
         }
     }

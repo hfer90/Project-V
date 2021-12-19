@@ -60,6 +60,9 @@ html {
 .footer .footer-items {
   margin: 0px;
 }
+.footer .footer-items .footer-izq p {
+  font-weight: 600;
+}
 .footer .footer-items .footer-izq nav ul li {
   font-size: 1.4rem;
   letter-spacing: 1px;
@@ -68,12 +71,19 @@ html {
 .footer .footer-items .footer-izq nav ul li a {
   color: white;
 }
+.footer .footer-items .footer-izq nav ul li .footer-link:link {
+  text-decoration: none;
+}
+.footer .footer-items .footer-izq nav ul li .footer-link:hover {
+  text-decoration: underline;
+}
 .footer .footer-items .footer-cen .envios {
-  font-weight: bold;
+  font-weight: 600;
   color: white;
 }
 .footer .footer-items .footer-cen .logos {
   width: 30px;
+  margin: 0px 2px;
 }
 .footer .footer-items .footer-der .derechos {
   font-style: oblique;
@@ -82,6 +92,10 @@ html {
 }
 .footer .footer-items .footer-der .logos {
   width: 30px;
+  margin: 0px 5px;
+}
+.footer .footer-items .footer-der p {
+  font-weight: 600;
 }
 
 /*# sourceMappingURL=style.css.map */
