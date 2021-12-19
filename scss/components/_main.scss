@@ -3,8 +3,11 @@
     font-family: $font-general;
 }
 
-.h2-fer {
+.h2-proj {
     font-size: nth($size-proj, 2);
+    background-color: nth($colors-proj , 3);
+    color: nth($colors-proj, 2);
+    padding: 5px;
 }
 .producto:hover {
     opacity: 65%;

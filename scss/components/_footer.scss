@@ -1,16 +1,23 @@
 @import '../base/listas';
+
 /* footer */
 .footer {
-    background-color: $bg-general;
+    background-color: nth($colors-proj, 1);
+    color: nth($colors-proj, 2);
+    padding: 0px;
     .footer-items {
+        margin: 0px;
         .footer-izq{
             nav {
                 ul {
-                    text-align: center;
                     li {
                         font-size: nth($size-proj, 3);
                         letter-spacing: 1px;
                         list-style: none;
+                        a {
+                            color: nth($colors-proj, 2);
+                        }
+                        
                     }
                 }
             }   
@@ -19,9 +26,9 @@
         .footer-cen {
             .envios {
                 font-weight: bold;
+                color: nth($colors-proj, 2);
             }
             .logos {
-            padding: 0px 2px;
             width: 30px;
             }
         }
@@ -33,7 +40,6 @@
                 margin-top: 26px;
             }
             .logos {
-                padding: 0px 2px;
                 width: 30px;
             }
         }
