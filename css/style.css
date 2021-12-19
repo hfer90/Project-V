@@ -1,9 +1,6 @@
 /* header */
-header {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #ebebeb;
-  margin: 0;
-  padding: 0;
+.navbar {
+  background-color: #dfdfdf;
 }
 
 .logo-proj {
@@ -12,43 +9,116 @@ header {
 
 .h1-proj {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 1.9rem;
-  padding-left: 25px;
-  padding-right: 65px;
+  font-size: 2.1rem;
+  color: #27282d;
+  margin: 0px 20px;
 }
 
-/* main y generales */
-.main, .section {
+.navbar-toggler {
+  background-color: #463a3a;
+  border: none;
+  padding: 10px 6px;
+  outline: none;
+}
+
+.nav-link {
+  color: #27282d;
+  font-size: 1.5rem;
+  font-weight: 200;
+  opacity: 1;
+  margin: 0px 16px;
+}
+
+.dropdown-menu {
+  background-color: #dfdfdf;
+  padding: 0px;
+}
+
+.dropdown-item {
+  color: #27282d;
+  font-size: 1.5rem;
+  font-weight: 200;
+  opacity: 1;
+}
+
+.dropdown-item:hover {
+  opacity: 0.7;
+  background-color: #dfdfdf;
+}
+
+.nav-link:hover {
+  color: #27282d;
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.nav-link:visited {
+  color: #27282d;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border: 1px;
+  background-color: white;
+}
+
+.navbar-toggler span + span {
+  width: 12px;
+  margin-top: 3px;
+  margin-left: 4px;
+}
+
+.navbar-toggler span + span + span {
+  width: 20px;
+  margin-left: 0px;
+}
+
+.btn {
+  background-color: #463a3a;
+  color: white;
+  margin: 20px;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+/* Generales */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+html, body {
+  font-size: 62.5%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+
+a, p {
+  font-size: 1.2rem;
+  color: white;
 }
 
 .h2-proj {
   font-size: 1.8rem;
-  background-color: #606734;
+  background-color: #463a3a;
   color: white;
-  padding: 5px;
+  padding: 1px;
 }
 
 .producto:hover {
   opacity: 65%;
   transition: 0.5s ease;
-}
-
-a, p {
-  font-size: 1.4rem;
-}
-
-img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
-  display: none;
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
-}
-
-html {
-  font-size: 62.5%;
 }
 
 /* footer */
@@ -64,18 +134,15 @@ html {
   font-weight: 600;
 }
 .footer .footer-items .footer-izq nav ul li {
-  font-size: 1.4rem;
   letter-spacing: 1px;
   list-style: none;
-}
-.footer .footer-items .footer-izq nav ul li a {
-  color: white;
 }
 .footer .footer-items .footer-izq nav ul li .footer-link:link {
   text-decoration: none;
 }
 .footer .footer-items .footer-izq nav ul li .footer-link:hover {
   text-decoration: underline;
+  color: white;
 }
 .footer .footer-items .footer-cen .envios {
   font-weight: 600;
@@ -85,9 +152,12 @@ html {
   width: 30px;
   margin: 0px 2px;
 }
+.footer .footer-items .footer-der {
+  padding-top: 6px;
+}
 .footer .footer-items .footer-der .derechos {
   font-style: oblique;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   margin-top: 26px;
 }
 .footer .footer-items .footer-der .logos {

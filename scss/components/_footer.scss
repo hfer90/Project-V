@@ -14,17 +14,15 @@
             nav {
                 ul {
                     li {
-                        font-size: nth($size-proj, 3);
                         letter-spacing: 1px;
                         list-style: none;
-                        a {
-                            color: nth($colors-proj, 2);
-                        }
+
                         .footer-link:link {
                             text-decoration: none;
                         }
                         .footer-link:hover {
                             text-decoration: underline;
+                            color: white;
                         }
                         
                     }
@@ -44,6 +42,7 @@
         }
         
         .footer-der {
+            padding-top: 6px;
             .derechos {
                 font-style: oblique;
                 font-size: nth($size-proj, 4);

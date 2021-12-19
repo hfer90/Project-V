@@ -1,19 +1,92 @@
 /* header */ 
-header {
-    font-family: $font-general;
-    background-color: $bg-general;
-    margin: 0;
-    padding: 0;
-}
 
+.navbar {
+  background-color: nth($colors-proj, 5);
+  }
+    
 .logo-proj {
-  width: 100px;
+    width: 100px;
 }
 
 .h1-proj {
-  font-family: $font-general;
-  font-size: nth($size-proj, 1);
-  padding-left: 25px;
-  padding-right: 65px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: nth($size-proj, 1);
+    color: nth($colors-proj, 1);
+    margin: 0px 20px;
 }
 
+.navbar-toggler {
+    background-color: nth($colors-proj, 4);
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+ }
+
+.nav-link {
+   color: nth($colors-proj, 1);
+   font-size: nth($size-proj, 3);
+   font-weight: 200;
+   opacity: 1;
+   margin: 0px 16px;
+}
+
+.dropdown-menu {
+   background-color: nth($colors-proj, 5);
+   padding: 0px;
+}
+
+.dropdown-item {
+  color: nth($colors-proj, 1);
+  font-size: nth($size-proj, 3);
+  font-weight: 200;
+  opacity: 1;
+}
+.dropdown-item:hover {
+opacity: 0.7;
+background-color: nth($colors-proj, 5);
+}
+
+
+.nav-link:hover {
+  color: nth($colors-proj, 1);
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.nav-link:visited {
+  color: nth($colors-proj, 1);
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border: 1px;
+  background-color: white;
+}
+
+.navbar-toggler span + span {
+  width: 12px;
+  margin-top: 3px;
+  margin-left: 4px;
+}
+
+.navbar-toggler span + span + span {
+  width: 20px;
+  margin-left: 0px;
+}
+
+.btn {
+  background-color: nth($colors-proj, 4);
+  color: nth($colors-proj, 2);
+  margin: 20px;
+  display: block;
+  font-size: nth($size-proj, 4);
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+
+
+}
