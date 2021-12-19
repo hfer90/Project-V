@@ -12,7 +12,7 @@ header {
 
 .h1-proj {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 19px;
+  font-size: 1.9rem;
   padding-left: 25px;
   padding-right: 65px;
 }
@@ -23,7 +23,7 @@ header {
 }
 
 .h2-proj {
-  font-size: 18px;
+  font-size: 1.8rem;
   background-color: #606734;
   color: white;
   padding: 5px;
@@ -35,7 +35,7 @@ header {
 }
 
 a, p {
-  font-size: 14px;
+  font-size: 1.4rem;
 }
 
 img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
@@ -45,6 +45,10 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 * {
   padding: 0px;
   margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
 }
 
 /* footer */
@@ -57,7 +61,7 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
   margin: 0px;
 }
 .footer .footer-items .footer-izq nav ul li {
-  font-size: 14px;
+  font-size: 1.4rem;
   letter-spacing: 1px;
   list-style: none;
 }
@@ -73,7 +77,7 @@ img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost
 }
 .footer .footer-items .footer-der .derechos {
   font-style: oblique;
-  font-size: 13px;
+  font-size: 1.3rem;
   margin-top: 26px;
 }
 .footer .footer-items .footer-der .logos {
