@@ -9,9 +9,9 @@
 
 .h1-proj {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: #27282d;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 768px) {
