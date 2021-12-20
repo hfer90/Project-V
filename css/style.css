@@ -4,7 +4,7 @@
 }
 
 .logo-proj {
-  width: 100px;
+  width: 120px;
 }
 
 .h1-proj {
@@ -17,6 +17,10 @@
 @media screen and (max-width: 768px) {
   .h1-proj {
     display: none;
+  }
+
+  .logo-proj {
+    width: 100px;
   }
 }
 .navbar-toggler {
@@ -85,16 +89,15 @@
 .btn {
   background-color: #463a3a;
   color: white;
-  margin: 20px;
   display: block;
   font-size: 1.2rem;
-  border: 1px black;
+  border: 1.5px solid black;
 }
 
 .btn:hover {
   background-color: white;
   color: black;
-  border: 1px solid black;
+  border: 1.5px solid black;
 }
 
 /* Generales */
