@@ -11,9 +11,14 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 2rem;
   color: #27282d;
-  margin-left: 15px;
+  margin-left: 25px;
 }
 
+@media screen and (max-width: 768px) {
+  .h1-proj {
+    display: none;
+  }
+}
 .navbar-toggler {
   background-color: #463a3a;
   border: none;
@@ -58,21 +63,23 @@
 
 .navbar-toggler span {
   display: block;
-  width: 20px;
+  width: 30px;
   height: 2px;
   border: 1px;
   background-color: white;
+  margin-top: 3px;
 }
 
 .navbar-toggler span + span {
-  width: 12px;
+  width: 18px;
   margin-top: 3px;
-  margin-left: 4px;
+  margin-left: 6px;
 }
 
 .navbar-toggler span + span + span {
-  width: 20px;
+  width: 30px;
   margin-left: 0px;
+  margin-bottom: 3px;
 }
 
 .btn {
