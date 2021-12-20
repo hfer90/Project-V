@@ -10,8 +10,8 @@
 .h1-proj {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.9rem;
-  color: #27282d;
-  margin-left: 15px;
+  color: #272727;
+  margin-left: 20px;
 }
 
 @media screen and (max-width: 768px) {
@@ -31,7 +31,7 @@
 }
 
 .nav-link {
-  color: #27282d;
+  color: #272727;
   font-size: 1.5rem;
   font-weight: 200;
   opacity: 1;
@@ -44,7 +44,7 @@
 }
 
 .dropdown-item {
-  color: #27282d;
+  color: #272727;
   font-size: 1.5rem;
   font-weight: 200;
   opacity: 1;
@@ -56,13 +56,13 @@
 }
 
 .nav-link:hover {
-  color: #27282d;
+  color: #272727;
   font-weight: 100;
   opacity: 0.7;
 }
 
 .nav-link:visited {
-  color: #27282d;
+  color: #272727;
 }
 
 .navbar-toggler span {
@@ -84,6 +84,11 @@
   width: 30px;
   margin-left: 0px;
   margin-bottom: 3px;
+}
+
+.logo-carrito {
+  width: 25px;
+  margin-right: 15px;
 }
 
 .btn {
@@ -145,9 +150,14 @@ a, p {
   font-size: 1.2rem;
 }
 
+.fotos-contacto {
+  width: 40%;
+  margin: 8px;
+}
+
 /* footer */
 .footer {
-  background-color: #27282d;
+  background-color: #272727;
   color: white;
   padding: 0px;
 }
