@@ -33,3 +33,13 @@ a , p {
 .form-label , .form-control {
     font-size: nth($size-proj, 3);
 }
+
+.card {
+    width: 80%;
+    margin: 20px 0px;
+}
+
+.card-title {
+    font-size: nth($size-proj, 4);
+
+}

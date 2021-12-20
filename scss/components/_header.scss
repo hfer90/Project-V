@@ -5,7 +5,7 @@
   }
     
 .logo-proj {
-    width: 100px;
+    width: 110px;
 }
 
 .h1-proj {
@@ -82,6 +82,7 @@ background-color: nth($colors-proj, 5);
   margin: 20px;
   display: block;
   font-size: nth($size-proj, 4);
+  border: 1px black;
 }
 .btn:hover {
   background-color: white;

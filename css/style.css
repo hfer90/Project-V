@@ -4,7 +4,7 @@
 }
 
 .logo-proj {
-  width: 100px;
+  width: 110px;
 }
 
 .h1-proj {
@@ -81,6 +81,7 @@
   margin: 20px;
   display: block;
   font-size: 1.2rem;
+  border: 1px black;
 }
 
 .btn:hover {
@@ -123,6 +124,15 @@ a, p {
 
 .form-label, .form-control {
   font-size: 1.5rem;
+}
+
+.card {
+  width: 80%;
+  margin: 20px 0px;
+}
+
+.card-title {
+  font-size: 1.2rem;
 }
 
 /* footer */
