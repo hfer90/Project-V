@@ -1,0 +1,107 @@
+/* header */ 
+
+.navbar {
+  background-color: nth($colors-proj, 5);
+  }
+    
+.logo-proj {
+    width: 120px;
+}
+
+.h1-proj {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: nth($size-proj, 1);
+    color: nth($colors-proj, 1);
+    margin-left: 20px;
+} 
+
+@media screen and (max-width: 768px) {
+  .h1-proj {
+    display: none;
+  }
+  .logo-proj {
+    width: 100px;
+  }
+}
+
+
+.navbar-toggler {
+    background-color: nth($colors-proj, 4);
+    border: none;
+    padding: 10px 6px;
+    outline: none;
+ }
+
+.nav-link {
+   color: nth($colors-proj, 1);
+   font-size: nth($size-proj, 3);
+   font-weight: 200;
+   opacity: 1;
+   margin: 0px 16px;
+}
+
+.dropdown-menu {
+   background-color: nth($colors-proj, 5);
+   padding: 0px;
+}
+
+.dropdown-item {
+  color: nth($colors-proj, 1);
+  font-size: nth($size-proj, 3);
+  font-weight: 200;
+  opacity: 1;
+}
+.dropdown-item:hover {
+opacity: 0.7;
+background-color: nth($colors-proj, 5);
+}
+
+
+.nav-link:hover {
+  color: nth($colors-proj, 1);
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.nav-link:visited {
+  color: nth($colors-proj, 1);
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  border: 1px;
+  background-color: white;
+  margin-top: 3px;
+}
+
+.navbar-toggler span + span {
+  width: 18px;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+
+.navbar-toggler span + span + span {
+  width: 30px;
+  margin-left: 0px;
+  margin-bottom: 3px;
+}
+
+.logo-carrito {
+  width: 25px;
+  margin-right: 15px;
+}
+
+.btn {
+  background-color: nth($colors-proj, 4);
+  color: nth($colors-proj, 2);
+  display: block;
+  font-size: nth($size-proj, 4);
+  border: 1.5px solid black;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1.5px solid black;
+}

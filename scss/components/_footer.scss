@@ -1,0 +1,62 @@
+@import '../base/listas';
+
+/* footer */
+.footer {
+    background-color: nth($colors-proj, 1);
+    color: nth($colors-proj, 2);
+    padding: 0px;
+    .footer-items {
+        margin: 0px;
+        .footer-izq{
+            p {
+                font-weight: 600;
+            }
+            nav {
+                ul {
+                    li {
+                        letter-spacing: 1px;
+                        list-style: none;
+
+                        .footer-link:link {
+                            text-decoration: none;
+                        }
+                        .footer-link:hover {
+                            text-decoration: underline;
+                            color: white;
+                        }
+                        
+                    }
+                }
+            }   
+        }
+        
+        .footer-cen {
+            .envios {
+                font-weight: 600;
+                color: nth($colors-proj, 2);
+            }
+            .logos {
+            width: 30px;
+            margin: 0px 2px;
+            }
+        }
+        
+        .footer-der {
+            padding-top: 6px;
+            .derechos {
+                font-style: oblique;
+                font-size: nth($size-proj, 4);
+                margin-top: 26px;
+            }
+            .logos {
+                width: 30px;
+                margin: 0px 5px;
+            }
+            p {
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+

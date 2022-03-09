@@ -1,0 +1,205 @@
+/* header */
+.navbar {
+  background-color: #dfdfdf;
+}
+
+.logo-proj {
+  width: 120px;
+}
+
+.h1-proj {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.9rem;
+  color: #272727;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .h1-proj {
+    display: none;
+  }
+
+  .logo-proj {
+    width: 100px;
+  }
+}
+.navbar-toggler {
+  background-color: #463a3a;
+  border: none;
+  padding: 10px 6px;
+  outline: none;
+}
+
+.nav-link {
+  color: #272727;
+  font-size: 1.5rem;
+  font-weight: 200;
+  opacity: 1;
+  margin: 0px 16px;
+}
+
+.dropdown-menu {
+  background-color: #dfdfdf;
+  padding: 0px;
+}
+
+.dropdown-item {
+  color: #272727;
+  font-size: 1.5rem;
+  font-weight: 200;
+  opacity: 1;
+}
+
+.dropdown-item:hover {
+  opacity: 0.7;
+  background-color: #dfdfdf;
+}
+
+.nav-link:hover {
+  color: #272727;
+  font-weight: 100;
+  opacity: 0.7;
+}
+
+.nav-link:visited {
+  color: #272727;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 30px;
+  height: 2px;
+  border: 1px;
+  background-color: white;
+  margin-top: 3px;
+}
+
+.navbar-toggler span + span {
+  width: 18px;
+  margin-top: 3px;
+  margin-left: 6px;
+}
+
+.navbar-toggler span + span + span {
+  width: 30px;
+  margin-left: 0px;
+  margin-bottom: 3px;
+}
+
+.logo-carrito {
+  width: 25px;
+  margin-right: 15px;
+}
+
+.btn {
+  background-color: #463a3a;
+  color: white;
+  display: block;
+  font-size: 1.2rem;
+  border: 1.5px solid black;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: 1.5px solid black;
+}
+
+/* Generales */
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+  display: none;
+}
+
+html, body {
+  font-size: 62.5%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  overflow-x: hidden;
+  top: 0;
+  left: 0;
+}
+
+a, p {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.h2-proj {
+  font-size: 1.8rem;
+  background-color: #463a3a;
+  color: white;
+  padding: 1px;
+}
+
+.producto:hover {
+  opacity: 65%;
+  transition: 0.5s ease;
+}
+
+.form-label, .form-control {
+  font-size: 1.5rem;
+}
+
+.card {
+  width: 80%;
+  margin: 20px 0px;
+}
+
+.card-title {
+  font-size: 1.2rem;
+}
+
+.fotos-contacto {
+  width: 40%;
+  margin: 8px;
+}
+
+/* footer */
+.footer {
+  background-color: #272727;
+  color: white;
+  padding: 0px;
+}
+.footer .footer-items {
+  margin: 0px;
+}
+.footer .footer-items .footer-izq p {
+  font-weight: 600;
+}
+.footer .footer-items .footer-izq nav ul li {
+  letter-spacing: 1px;
+  list-style: none;
+}
+.footer .footer-items .footer-izq nav ul li .footer-link:link {
+  text-decoration: none;
+}
+.footer .footer-items .footer-izq nav ul li .footer-link:hover {
+  text-decoration: underline;
+  color: white;
+}
+.footer .footer-items .footer-cen .envios {
+  font-weight: 600;
+  color: white;
+}
+.footer .footer-items .footer-cen .logos {
+  width: 30px;
+  margin: 0px 2px;
+}
+.footer .footer-items .footer-der {
+  padding-top: 6px;
+}
+.footer .footer-items .footer-der .derechos {
+  font-style: oblique;
+  font-size: 1.2rem;
+  margin-top: 26px;
+}
+.footer .footer-items .footer-der .logos {
+  width: 30px;
+  margin: 0px 5px;
+}
+.footer .footer-items .footer-der p {
+  font-weight: 600;
+}
+
+/*# sourceMappingURL=style.css.map */
